@@ -2,6 +2,12 @@
 
 This project consists of a React frontend and a Node.js backend and Monogodb Database for managing Help Center cards.
 
+
+
+https://github.com/user-attachments/assets/41e5ceae-3c60-4ea5-8bdd-b955e9df5c92
+
+
+
 ## Backend Setup
 
 1. Navigate to the backend directory:
@@ -63,6 +69,6 @@ backend/server.js
 
 backend/config/db.js
 
-- Card routes:
+Card routes:
 
 backend/routes/cardRoutes.js
