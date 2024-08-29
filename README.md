@@ -1,27 +1,68 @@
-# Help Center API Assignment
+# Help Center API Project
 
-## Instructions
+This project consists of a React frontend and a Node.js backend and Monogodb Database for managing Help Center cards.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/iAmritMalviya/fullstack-assignment
-   cd fullstack-assignment
+## Backend Setup
+
+1. Navigate to the backend directory:
+   ```
+   cd backend
    ```
 
-2. **Frontend:**
-   - Create a React app in the `frontend` folder.
-   - Follow the instructions in `frontend.md` to complete the frontend.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-3. **Backend:**
-   - Create a Node.js app in the `backend` folder.
-   - Follow the `backend.md` instructions to complete the backend.
+3. Create a `.env` file in the backend directory and add your MongoDB URI:
+   ```
+   MONGO_URI=your_mongodb_uri_here
+   PORT=5000
+   ```
 
-4. **Push Your Work:**
-   - Push both the frontend and backend apps to the same repository.
-   - Make sure the repository is public.
+4. Start the backend server:
+   ```
+   npm run dev
+   ```
 
-5. **Submit Your Work:**
-   - Paste the GitHub repository link in the Google form you received after pushing your code.
+The backend server will start running on `http://localhost:5000`.
 
----
+## Frontend Setup
 
+1. Navigate to the frontend directory:
+   ```
+   cd frontend
+   ```
+
+2. Install dependencies:
+   ```
+   npm install
+   ```
+
+3. Start the frontend development server:
+   ```
+   npm start
+   ```
+
+The frontend application will start running on `http://localhost:3000`.
+
+## Usage
+
+- The backend API endpoints are available at `http://localhost:5000/api/cards`
+- The frontend application can be accessed in your web browser at `http://localhost:3000`
+
+## Project Structure
+
+### Backend
+
+-Main server file: 
+
+backend/server.js
+
+-Database configuration:
+
+backend/config/db.js
+
+- Card routes:
+
+backend/routes/cardRoutes.js
